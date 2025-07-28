@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9358a6955cf97ca4192196e9f66a0e60, type: 3}
+  m_Name: BasketballSkin
+  m_EditorClassIdentifier: 
+  colorHigh: {r: 0.48235294, g: 0.18431373, b: 0.11372549, a: 1}
+  colorLow: {r: 0.16037738, g: 0.060519762, b: 0.035555363, a: 1}
+  yPosHigh: -0.22
+  yPosLow: -2.37
+  gradientStrength: 0.87
+  emissiveStrength: 1
+  colorX: {r: 0.20754719, g: 0.07583454, b: 0.04601282, a: 0.647}
+  colorY: {r: 0.007843138, g: 0.023529414, b: 0.003921569, a: 0.872}
+  jumpColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  spikesColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  invisiblePlatformColor: {r: 0.41568628, g: 0.18372945, b: 0.117647044, a: 1}
+  invesiblePlatformRimColor: {r: 0.5566038, g: 0.4227038, b: 0.4227038, a: 1}
+  colorHighBack: {r: 0.33962262, g: 0.11295758, b: 0.059273757, a: 1}
+  colorLowBack: {r: 0.10980393, g: 0.058823533, b: 0.07450981, a: 1}
+  yPosHighBack: 1.93
+  yPosLowBack: -1.98
+  gradientStrengthBack: 0.8
+  emissiveStrengthBack: 1
+  colorXBack: {r: 0.14117648, g: 0.015686275, b: 0.015686275, a: 0.653}
+  colorYBack: {r: 0.007843138, g: 0.023529414, b: 0.003921569, a: 0.828}
+  powerUpsMainColor: {r: 0.9333334, g: 0.9333334, b: 0.9333334, a: 1}
+  portalColor: {r: 0.9333334, g: 0.9333334, b: 0.9333334, a: 1}
+  relaxZonePortalColor: {r: 0.9333334, g: 0.9333334, b: 0.9333334, a: 1}
+  skyColorType: 0
+  cameraColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+  skyboxMaterial: {fileID: 0}
+  fogStrength: 4
+  fogSize: 3
+  panelColor: {r: 0.1981132, g: 0.16353685, b: 0.16353685, a: 1}

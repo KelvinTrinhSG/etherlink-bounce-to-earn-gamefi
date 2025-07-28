@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1674634740451642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4806948673198002}
+  - component: {fileID: 81204206914026406}
+  - component: {fileID: 114997358466713892}
+  - component: {fileID: 114308441300490696}
+  - component: {fileID: 114425791106812404}
+  - component: {fileID: 114703381586825578}
+  - component: {fileID: 114817326032134446}
+  - component: {fileID: 114663301667059072}
+  - component: {fileID: 3115546176934368914}
+  m_Layer: 0
+  m_Name: ScriptsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4806948673198002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &81204206914026406
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+--- !u!114 &114997358466713892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6509e11516e885499b30f6e1c1f1cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSettings: {fileID: 11400000, guid: 59108ab478e08614eb2c00094b944d5b, type: 2}
+  isGameActive: 0
+  minDistanceForRevive: 50
+  relaxZoneHeight: 120
+  relaxZoneWidth: 17
+  wilhelmScreamChance: 0.01
+--- !u!114 &114308441300490696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8cb2560b3a9414cb5522f17d0ad145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnSetings: {fileID: 11400000, guid: 2d6db8bad7540374ababab805403c6a8, type: 2}
+  rightSpawnOriginTransform: {fileID: 0}
+  bottomSpawnOriginTransform: {fileID: 0}
+  disablerTransform: {fileID: 0}
+--- !u!114 &114425791106812404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d691dfb3f8016b94f823629c23c7fdb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 114997358466713892}
+  uiController: {fileID: 0}
+  spawnController: {fileID: 114308441300490696}
+  playerController: {fileID: 0}
+  defaultHitEffect: {fileID: 0}
+  defaultTrailObject: {fileID: 0}
+  musicEffectsMixer: {fileID: 24100000, guid: 1fef7f603319d2c4483a7909c586eeee, type: 2}
+  normalPlatformMaterial: {fileID: 2100000, guid: 714043d77d50b904e994a8a8ea124cd9,
+    type: 2}
+  comboPlatformMaterial: {fileID: 2100000, guid: 0ca05b191d410404ebdccd4581df2aa0,
+    type: 2}
+  invisiblePlatformMaterial: {fileID: 2100000, guid: 6b83a2a4af276ba42babf94485292c28,
+    type: 2}
+--- !u!114 &114703381586825578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664ac13cb26d10c4da5609745062e573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  presetTransitionTime: 1
+  skinsPresetsIgnoreList:
+  - skin: {fileID: 11400000, guid: 7758ca4a0a30e934dbd7d19923f0159c, type: 2}
+    presets:
+    - {fileID: 0}
+  - skin: {fileID: 11400000, guid: ea10f32a3ca66044c9c9ca1ca0cb5ee8, type: 2}
+    presets:
+    - {fileID: 0}
+    - {fileID: 0}
+  - skin: {fileID: 11400000, guid: 19e3059ca8b2e134aba2a01acb022ab3, type: 2}
+    presets:
+    - {fileID: 0}
+  - skin: {fileID: 11400000, guid: 9508373b1ed45a641b2ee580f6b655b1, type: 2}
+    presets:
+    - {fileID: 0}
+    - {fileID: 0}
+  - skin: {fileID: 11400000, guid: ebc9201400f57f543be3ebe55cf9051e, type: 2}
+    presets:
+    - {fileID: 0}
+    - {fileID: 0}
+  - skin: {fileID: 11400000, guid: 45ae251f3b1fb4f419e325bb04a3d158, type: 2}
+    presets:
+    - {fileID: 0}
+    - {fileID: 0}
+  - skin: {fileID: 0}
+    presets:
+    - {fileID: 0}
+  - skin: {fileID: 11400000, guid: efc7d11013ae3b14f815229ecf818bca, type: 2}
+    presets:
+    - {fileID: 0}
+    - {fileID: 0}
+  backgroundPlatformMaterial: {fileID: 2100000, guid: 18ecb05b8e91e4a4d9066ea10aa4dac7,
+    type: 2}
+  platfromMaterial: {fileID: 2100000, guid: 714043d77d50b904e994a8a8ea124cd9, type: 2}
+  jumpPlatformMaterial: {fileID: 2100000, guid: b64976a4f03d10c48894bc4f7b0dd658,
+    type: 2}
+  spikedPlatformMaterial: {fileID: 2100000, guid: 56ca87cb7883a844c8eb93b04dc3acc7,
+    type: 2}
+  hologramMaterial: {fileID: 2100000, guid: 6b83a2a4af276ba42babf94485292c28, type: 2}
+  powerUpsMaterial: {fileID: 2100000, guid: 040cfa3c61ad57946ae16c627e338920, type: 2}
+  invisiblePlatformMaterial: {fileID: 2100000, guid: 6b83a2a4af276ba42babf94485292c28,
+    type: 2}
+  cameraRef: {fileID: 0}
+  spawnController: {fileID: 114308441300490696}
+  levelPresetsQueue:
+  - {fileID: 11400000, guid: 299518635f573204999bc2400e02fc89, type: 2}
+  - {fileID: 11400000, guid: 9933522241e9b064492015c38523065f, type: 2}
+  - {fileID: 11400000, guid: 9f61376c50cdb834bae27ca4d7b12e14, type: 2}
+  - {fileID: 11400000, guid: 934fb77216d515743b2640805434ff99, type: 2}
+  - {fileID: 11400000, guid: 45230f4b0ac7f0a4ab1f324f8bd1039d, type: 2}
+  - {fileID: 11400000, guid: 3a2872d08268e50408351670960db9b0, type: 2}
+  ultraComboPreset: {fileID: 11400000, guid: 811b39b1c534c44428d89f8c945de635, type: 2}
+  tutorialPreset: {fileID: 11400000, guid: 79c5d974ce025aa4b84c28420360f1fb, type: 2}
+--- !u!114 &114817326032134446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e556bc85ffc4400489cc0ec30ee96a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 0}
+--- !u!114 &114663301667059072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f621a3ccdf5c70640bdc4ce83aab845b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3115546176934368914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674634740451642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deda4686bb13cb14ebcee2bb11ee3356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsContainer: {fileID: 0}
+  poolsList:
+  - name: BackgroundPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1972841522886040, guid: e781e1e3a2d540f459fea67c0dd5747d,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 160
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: BoosterPowerUp
+    type: 0
+    singlePoolPrefab: {fileID: 1626413393985786, guid: d852cea54477c65449ec8448667f98bc,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: CanyonPassedTrigger
+    type: 0
+    singlePoolPrefab: {fileID: 1237096896991232, guid: 76bbefc61f996e34f81a0d10ab03f16a,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: ComboTrigger
+    type: 0
+    singlePoolPrefab: {fileID: 2165734246853909221, guid: 63be35bd47edb864f8272a7cfbd72e97,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 5
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: ComboColumnHitParticle
+    type: 0
+    singlePoolPrefab: {fileID: 157566728400725408, guid: 3b19c95236c9b8d40835f04cb24eecc9,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 2
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: FlyingCliff
+    type: 0
+    singlePoolPrefab: {fileID: 1292192542425188, guid: 7fd723b9c3897f542b02d62257f1157d,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 2
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: EnergyFieldPowerUp
+    type: 0
+    singlePoolPrefab: {fileID: 1908833438846228, guid: 9725a9b320dfa5344ad17bfa149953fb,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 1
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: GuideLineCenter
+    type: 0
+    singlePoolPrefab: {fileID: 1105179056389062, guid: 070d45a13b842c04fb9abb2a24488a84,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: InvisiblePlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1972841522886040, guid: 32587a8cdc2a9db4d9c51b3e93057fcb,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 2
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: JumpPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1064427764611338, guid: 510a770848f0e3f4c9566d7464f5b2e9,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 2
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: LeftGuideline
+    type: 0
+    singlePoolPrefab: {fileID: 1654586941836550, guid: e4dcc1d7bc9c1db4babb4387ddfe8d03,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: LevelBorder
+    type: 0
+    singlePoolPrefab: {fileID: 7971564113779425327, guid: 7da152601d0c6804482ff63790b63fce,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 1
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: MobPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1972841522886040, guid: 77b9d91cfc5588e44aeae79c403ade2f,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: MovingPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1026295565913592, guid: 016566ac4a8d2a34e91af4d1187ec77e,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 13
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: NormalPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1972841522886040, guid: f721b75e622b0694f82717196ca145f0,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 13
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: PlatformMob
+    type: 0
+    singlePoolPrefab: {fileID: 1106617891186844, guid: dcf89c5b82f0dea4eb13b27bc06fd629,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: PortalIn
+    type: 0
+    singlePoolPrefab: {fileID: 1718564623517986, guid: 720aec3ee2cbc0f428e76ed1920ff7db,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: PortalOut
+    type: 0
+    singlePoolPrefab: {fileID: 1296996866101468, guid: 610dcf6de9832774ba973c2d747b311c,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: PowerUpDisabler
+    type: 0
+    singlePoolPrefab: {fileID: 1820473557967612, guid: bab91960aa7f8fc4f9136f582c3d8e89,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: RightGuideline
+    type: 0
+    singlePoolPrefab: {fileID: 1334092040872930, guid: 3b4cda3a02f564b4282018fee9ddf1f6,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 1
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: PowerUpsPickUp
+    type: 0
+    singlePoolPrefab: {fileID: 1390415484374742, guid: b8d52570d3544a841bfadc7a05a35230,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 10
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: ScorePointer
+    type: 0
+    singlePoolPrefab: {fileID: 1193299204905508, guid: 8a2436a9fbd76f34f8e2883b98dc7e42,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 1
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: ShieldPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1797039711591028, guid: 56f7aee3d3f0217428aa52a85ab354a2,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 15
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: ShieldPowerUp
+    type: 0
+    singlePoolPrefab: {fileID: 1432999217277850, guid: 29fd93a9fab9f49439b26881250d6898,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: SpikedPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1972841522886040, guid: 2176915f9206a7c45adeb8e1ddc49d58,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: SpikesBreakParticle
+    type: 0
+    singlePoolPrefab: {fileID: 544986471275157163, guid: 54581561f0f113f41bfad319012c2a8c,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 1
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: TECChalangelPlatform
+    type: 0
+    singlePoolPrefab: {fileID: 1930499365966020, guid: 2ef9bf93c7643ac4093bd5fdf070f288,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0
+  - name: WarningSign
+    type: 0
+    singlePoolPrefab: {fileID: 1273147045046298, guid: 4d48000c5f7338e4e8729f4a323bd36b,
+      type: 3}
+    multiPoolPrefabsList: []
+    size: 0
+    autoSizeIncrement: 1
+    objectsContainer: {fileID: 0}
+    isRuntimeCreated: 0
+    inited: 0

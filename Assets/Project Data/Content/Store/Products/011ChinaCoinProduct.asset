@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 011ChinaCoinProduct
+  m_EditorClassIdentifier: 
+  id: 11
+  productName: ChinaCoin
+  icon: {fileID: 21300000, guid: 98bea371d2eda904fa7909d2767dac0f, type: 3}
+  skinPrefab: {fileID: 1531841037424284, guid: cf6d4ab96fb67dc46bf074403e874589, type: 3}
+  hitEffectColor: {r: 1, g: 0.9889937, b: 0.6367924, a: 1}
+  rotationMode: 0
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 1274865958502018, guid: 075a2f17ed002d545ba229a274a19388,
+    type: 3}
+  backgroundColorsPreset: {fileID: 11400000, guid: caaf8867797e92a4abb5466fe8cf1b1d,
+    type: 2}
+  hitSounds: []
+  gameOverSound: {fileID: 0}
+  achievementID: 11

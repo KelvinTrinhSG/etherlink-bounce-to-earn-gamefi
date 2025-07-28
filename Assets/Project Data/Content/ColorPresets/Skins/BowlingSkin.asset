@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9358a6955cf97ca4192196e9f66a0e60, type: 3}
+  m_Name: BowlingSkin
+  m_EditorClassIdentifier: 
+  colorHigh: {r: 1, g: 0.9037637, b: 0.6, a: 1}
+  colorLow: {r: 0.6132076, g: 0.42407098, b: 0.3037113, a: 1}
+  yPosHigh: 0.49
+  yPosLow: -2.61
+  gradientStrength: 1.01
+  emissiveStrength: 0.8
+  colorX: {r: 0.1792453, g: 0.088745244, b: 0.024519408, a: 0.647}
+  colorY: {r: 0.007843138, g: 0.023529414, b: 0.003921569, a: 0.872}
+  jumpColor: {r: 1, g: 0.9925095, b: 0.9009434, a: 1}
+  spikesColor: {r: 1, g: 0.9921569, b: 0.90196085, a: 1}
+  invisiblePlatformColor: {r: 0.9339623, g: 0.7274553, b: 0.383277, a: 1}
+  invesiblePlatformRimColor: {r: 0.8301887, g: 0.43456703, b: 0.34069067, a: 1}
+  colorHighBack: {r: 1, g: 0.90196085, b: 0.6, a: 1}
+  colorLowBack: {r: 0.49056602, g: 0.32794392, b: 0.2244571, a: 1}
+  yPosHighBack: 1.93
+  yPosLowBack: -1.98
+  gradientStrengthBack: 0.8
+  emissiveStrengthBack: 1
+  colorXBack: {r: 0.14117648, g: 0.015686275, b: 0.015686275, a: 0.653}
+  colorYBack: {r: 0.007843138, g: 0.023529414, b: 0.003921569, a: 0.828}
+  powerUpsMainColor: {r: 1, g: 0.97605395, b: 0.8443396, a: 1}
+  portalColor: {r: 1, g: 0.97647065, b: 0.8431373, a: 1}
+  relaxZonePortalColor: {r: 1, g: 0.97647065, b: 0.8431373, a: 1}
+  skyColorType: 0
+  cameraColor: {r: 0.2830189, g: 0.27550954, b: 0.22294413, a: 1}
+  skyboxMaterial: {fileID: 0}
+  fogStrength: 2
+  fogSize: 0.9
+  panelColor: {r: 0.21698111, g: 0.21002135, b: 0.16478282, a: 1}

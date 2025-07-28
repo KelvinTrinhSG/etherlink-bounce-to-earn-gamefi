@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 014GhostProduct
+  m_EditorClassIdentifier: 
+  id: 14
+  productName: Ghost
+  icon: {fileID: 21300000, guid: 917be6b9eb32c364784e0dcee26fc3d8, type: 3}
+  skinPrefab: {fileID: 1866526317343116, guid: c75748011b0a31e4ca961ee8738d3308, type: 3}
+  hitEffectColor: {r: 0.81434673, g: 0.9433962, b: 0.93968165, a: 1}
+  rotationMode: 1
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 1735648706810786, guid: bbf753b56622c1d478d860fb2db97597,
+    type: 3}
+  backgroundColorsPreset: {fileID: 11400000, guid: 905c3966d974ed74a84ab54a4d5fde48,
+    type: 2}
+  hitSounds: []
+  gameOverSound: {fileID: 0}
+  achievementID: 14

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 004BasketballProduct
+  m_EditorClassIdentifier: 
+  id: 4
+  productName: Basketball
+  icon: {fileID: 21300000, guid: 453427e8dcfe23348ab7bcfd05ad4e5f, type: 3}
+  productType: 0
+  skinPrefab: {fileID: 1434360871506346, guid: f0b8cfcc4a478af438e56eee10780f6a, type: 3}
+  hitEffectColor: {r: 0.9716981, g: 0.7786511, b: 0.42626378, a: 1}
+  rotationMode: 0
+  skinType: 1
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 0}
+  backgroundColorsPreset: {fileID: 11400000, guid: eff36fb72b80a8243916d3e8bbd2ec88,
+    type: 2}
+  hitSounds:
+  - {fileID: 8300000, guid: 429459cd10e98e04d8c473effb1ecf45, type: 3}
+  - {fileID: 8300000, guid: c9d2a3990776fec4db504fc6a29c48f9, type: 3}
+  - {fileID: 8300000, guid: 6a491452acd69604d89031f118c62998, type: 3}
+  - {fileID: 8300000, guid: 9a164ef0a89bf754d8433ff252a58084, type: 3}
+  - {fileID: 8300000, guid: 5b19c15f27eb51a4dbc710b6d77f237e, type: 3}
+  gameOverSound: {fileID: 8300000, guid: ecccddc0e9bc0bc41b18d10ce1a3a128, type: 3}
+  achievementID: 4

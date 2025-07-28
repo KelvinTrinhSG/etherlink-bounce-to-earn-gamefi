@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 003VolleyBallProduct
+  m_EditorClassIdentifier: 
+  id: 3
+  productName: VolleyBall
+  icon: {fileID: 21300000, guid: ec5e71696f493f64a9d4b093a2718058, type: 3}
+  productType: 0
+  skinPrefab: {fileID: 1887775109378484, guid: 3e8a01a8cdafc2148ac367daf490a934, type: 3}
+  hitEffectColor: {r: 0.9429086, g: 0.9811321, b: 0.763617, a: 1}
+  rotationMode: 0
+  skinType: 1
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 0}
+  backgroundColorsPreset: {fileID: 0}
+  hitSounds:
+  - {fileID: 8300000, guid: 22f3bad79579fac40b599d12f9d7b06b, type: 3}
+  - {fileID: 8300000, guid: f0876368c2f51214ca977e7bf5d40f4a, type: 3}
+  - {fileID: 8300000, guid: c6791a3cc7642ad4b82bf7537a37794d, type: 3}
+  - {fileID: 8300000, guid: 31196eabd1003b940bf4324c8f5208cf, type: 3}
+  gameOverSound: {fileID: 8300000, guid: ecccddc0e9bc0bc41b18d10ce1a3a128, type: 3}
+  achievementID: 3

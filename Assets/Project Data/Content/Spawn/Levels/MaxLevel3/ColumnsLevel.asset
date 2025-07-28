@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237259f452c65da42a7dc775792e7fad, type: 3}
+  m_Name: ColumnsLevel
+  m_EditorClassIdentifier: 
+  platformsAmount: 12
+  speedCoef: 1
+  platformsSpawnSettings:
+    minDistanceRatio: 0.397
+    maxDistanceRatio: 0.577
+    platfromsSpawnSettings:
+    - basicPlatformType: 0
+      platformSpawnPercentage: 100
+      minPlatformsAmount: 1
+      maxPlatformsAmount: 1
+      minExtraPlatformsAmount: 0
+      maxExtraPlatformsAmount: 0
+  locationsSpawnChance: 0
+  locationsSpawnSettings: 
+  preferedPreset: {fileID: 0}

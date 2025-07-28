@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7aa5f0d856eae4f9090569efb37901, type: 3}
+  m_Name: Multilanguage Settings
+  m_EditorClassIdentifier: 
+  defaultLanguage: 10
+  languagePacks:
+  - {fileID: 8949965593914837512}
+  wordKeys:
+  - gameplay.highscore
+  - gameplay.highscore.new
+  - gameplay.pause.home
+  - gameplay.pause.resume
+  - gameplay.pause.title
+  - gameplay.place
+  - gameplay.restart
+  - gameplay.revive
+  - gameplay.score
+  - gameplay.skip
+  - gameplay.someAmountOfCoins
+  - gameplay.watchVideo
+  - ui.achievements.panel.title
+  - ui.exit.button
+  - ui.menu.back
+  - ui.menu.play
+  - ui.menu.settings
+  - ui.menu.settings.logged
+  - ui.menu.settings.login
+  - ui.menu.settings.off
+  - ui.menu.settings.on
+  - ui.menu.shop
+  - ui.ad.loading
+  - ui.achievements.play10games
+  - ui.achievements.play50games
+  - ui.achievements.jump500times
+  - ui.achievements.jump2000times
+  - ui.achievements.scoren1points
+  - ui.achievements.scoren2points
+  - ui.achievements.reach5combos
+  - ui.achievements.reach10combos
+  - ui.achievements.reach15combos
+  - ui.achievements.pickup20powerups
+  - ui.achievements.revive5times
+  - ui.achievements.revive20times
+  - ui.achievements.score0points
+  - ui.achievements.playwith5differentballs
+  - ui.achievements.playwith10differentballs
+  - ui.achievements.playwith15differentballs
+  - ui.achievements.passthroughportals
+  - ui.achievements.pickup5powerups
+  - ui.achievements.hitspikes
+  - ui.menu.store.selected
+  - ui.taptoplay
+  fontKeys:
+  - default
+--- !u!114 &8949965593914837512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaecdc36fc30e334e86b1885c1fe53ab, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language: 10
+  words:
+  - BEST
+  - NEW BEST
+  - HOME
+  - RESUME
+  - PAUSE
+  - PLACE
+  - RESTART
+  - CONTINUE?
+  - SCORE
+  - SKIP
+  - COINS
+  - WATCH VIDEO
+  - NEW SKIN UNLOCKED
+  - Click back again to exit
+  - BACK
+  - PLAY
+  - SETTINGS
+  - You have logged as {0}
+  - SIGN IN
+  - OFF
+  - ON
+  - STORE
+  - Video is loading
+  - Play 10 games
+  - Play 50 games
+  - Jump 500 times
+  - Jump 2000 times
+  - Score 50 points
+  - Score 200 points
+  - Reach 5 combos
+  - Reach 10 combos
+  - Reach 15 combos
+  - Pick up 20 power ups
+  - Revive 5 times
+  - Revive 20 times
+  - Score 0 points
+  - Play with 5 different balls
+  - Play with 10 different balls
+  - Play with 15 different balls
+  - Pass through 10 portals
+  - Pick up 5 power ups
+  - Hit spikes
+  - SELECTED
+  - TAP TO PLAY
+  fonts:
+  - {fileID: 12800000, guid: 3e298592b89431845b567fcd123ed183, type: 3}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9358a6955cf97ca4192196e9f66a0e60, type: 3}
+  m_Name: PumpkinSkin
+  m_EditorClassIdentifier: 
+  colorHigh: {r: 0.4056604, g: 0.28128338, b: 0.2923391, a: 1}
+  colorLow: {r: 0.11764707, g: 0.11764707, b: 0.14117648, a: 1}
+  yPosHigh: -0.22
+  yPosLow: -2.37
+  gradientStrength: 0.9
+  emissiveStrength: 1
+  colorX: {r: 0.07450981, g: 0.05607456, b: 0.03529412, a: 1}
+  colorY: {r: 0.06666667, g: 0.04155496, b: 0.023529412, a: 1}
+  jumpColor: {r: 1, g: 0.87347543, b: 0.8627451, a: 1}
+  spikesColor: {r: 1, g: 0.8745099, b: 0.86274517, a: 1}
+  invisiblePlatformColor: {r: 0.4056604, g: 0.29276434, b: 0.32369864, a: 1}
+  invesiblePlatformRimColor: {r: 0.43529412, g: 0.15686275, b: 0.17737317, a: 1}
+  colorHighBack: {r: 0.254717, g: 0.12135102, b: 0.14973061, a: 1}
+  colorLowBack: {r: 0.11764707, g: 0.11764707, b: 0.14117648, a: 1}
+  yPosHighBack: 1.93
+  yPosLowBack: -1.98
+  gradientStrengthBack: 0.9
+  emissiveStrengthBack: 1
+  colorXBack: {r: 0.101960786, g: 0.0627451, b: 0.06645701, a: 1}
+  colorYBack: {r: 0.12156863, g: 0.111885116, b: 0.08235294, a: 1}
+  powerUpsMainColor: {r: 1, g: 0.6669892, b: 0.39999998, a: 1}
+  portalColor: {r: 0.9843138, g: 0.8941177, b: 0.6313726, a: 1}
+  relaxZonePortalColor: {r: 0.9843138, g: 0.8941177, b: 0.6313726, a: 1}
+  skyColorType: 1
+  cameraColor: {r: 0.33962262, g: 0.30754462, b: 0.29316482, a: 1}
+  skyboxMaterial: {fileID: 0}
+  fogStrength: 4.14
+  fogSize: 0.96
+  panelColor: {r: 0.17465243, g: 0.1485849, b: 0.1981132, a: 1}

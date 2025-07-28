@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 009StoreProduct
+  m_EditorClassIdentifier: 
+  id: 9
+  productName: Bowling
+  icon: {fileID: 21300000, guid: ced203ddcd7b33d468aeac169efee408, type: 3}
+  skinPrefab: {fileID: 1748574134381058, guid: faa08611bc614c44f978679bf2cd4423, type: 3}
+  hitEffectColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
+  rotationMode: 0
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 0}
+  backgroundColorsPreset: {fileID: 11400000, guid: 0343eea3af85d734ea5c450c2bebb157,
+    type: 2}
+  hitSounds:
+  - {fileID: 8300000, guid: da8bddf610bf0354387fb473eee568f9, type: 3}
+  - {fileID: 8300000, guid: 1761a3072fba4d047adfc3b40706fc0c, type: 3}
+  - {fileID: 8300000, guid: 8dd60e9e82fa51e4fbed946bb1b113e4, type: 3}
+  gameOverSound: {fileID: 8300000, guid: aed1d1f97c9966347be82d83624db866, type: 3}
+  achievementID: 9

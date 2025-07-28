@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 010DonutProduct
+  m_EditorClassIdentifier: 
+  id: 10
+  productName: Donut
+  icon: {fileID: 21300000, guid: 7249f1a1ea8b57549a0d17a318229926, type: 3}
+  skinPrefab: {fileID: 1149577430315632, guid: 31cffffb2249a7849b32b4672087ab6e, type: 3}
+  hitEffectColor: {r: 1, g: 0.6745283, b: 0.79117125, a: 1}
+  rotationMode: 0
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 1214170595064186, guid: f237b378ab7def74dbb7d6899203a178,
+    type: 3}
+  backgroundColorsPreset: {fileID: 0}
+  hitSounds:
+  - {fileID: 8300000, guid: 1bf5bc796c412ae49877d2c9b226c24e, type: 3}
+  - {fileID: 8300000, guid: 8fa00703ec05a0c49bb67f394b42fccf, type: 3}
+  - {fileID: 8300000, guid: a6be391e5dc69a544a3f5b810fe79967, type: 3}
+  gameOverSound: {fileID: 0}
+  achievementID: 10

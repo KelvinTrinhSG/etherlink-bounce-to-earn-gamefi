@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9358a6955cf97ca4192196e9f66a0e60, type: 3}
+  m_Name: Violet
+  m_EditorClassIdentifier: 
+  colorHigh: {r: 0.3301887, g: 0.29748133, b: 0.29981756, a: 1}
+  colorLow: {r: 0.45683512, g: 0.2761659, b: 0.5471698, a: 1}
+  yPosHigh: -0.22
+  yPosLow: -3.42
+  gradientStrength: 0.87
+  emissiveStrength: 1
+  colorX: {r: 0.13333334, g: 0.109914824, b: 0.08627451, a: 0.647}
+  colorY: {r: 0.15638858, g: 0.13843897, b: 0.16037738, a: 0.872}
+  jumpColor: {r: 0.9656137, g: 0.9009434, b: 1, a: 1}
+  spikesColor: {r: 0.9656137, g: 0.9009434, b: 1, a: 1}
+  invisiblePlatformColor: {r: 0.1924032, g: 0.05896227, b: 0.23584908, a: 1}
+  invesiblePlatformRimColor: {r: 0.43621692, g: 0.3780705, b: 0.4528302, a: 1}
+  colorHighBack: {r: 0.58526164, g: 0.56674975, b: 0.6037736, a: 1}
+  colorLowBack: {r: 0.5867504, g: 0.4579032, b: 0.6603774, a: 1}
+  yPosHighBack: 3.17
+  yPosLowBack: -1.19
+  gradientStrengthBack: 0.8
+  emissiveStrengthBack: 1
+  colorXBack: {r: 0.14117648, g: 0.015686274, b: 0.12553999, a: 0.653}
+  colorYBack: {r: 0.017562935, g: 0.003921568, b: 0.023529412, a: 0.828}
+  powerUpsMainColor: {r: 0.9656137, g: 0.9009434, b: 1, a: 1}
+  portalColor: {r: 0.9656137, g: 0.9009434, b: 1, a: 1}
+  relaxZonePortalColor: {r: 0.9656137, g: 0.9009434, b: 1, a: 1}
+  skyColorType: 1
+  cameraColor: {r: 0.3542575, g: 0.33147916, b: 0.3679245, a: 1}
+  skyboxMaterial: {fileID: 0}
+  fogStrength: 3.3
+  fogSize: 1.2
+  panelColor: {r: 0.3584906, g: 0.3153355, b: 0.24181205, a: 1}

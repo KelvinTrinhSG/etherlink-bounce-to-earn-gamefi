@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 015RubiksCubeProduct
+  m_EditorClassIdentifier: 
+  id: 15
+  productName: RubiksCube
+  icon: {fileID: 21300000, guid: 906031d083239db459ded667508466bf, type: 3}
+  skinPrefab: {fileID: 1037861315894326, guid: f0011e538860b1943b588307e9557be8, type: 3}
+  hitEffectColor: {r: 1, g: 0.98707956, b: 0.7028302, a: 1}
+  rotationMode: 1
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 0}
+  backgroundColorsPreset: {fileID: 0}
+  hitSounds: []
+  gameOverSound: {fileID: 0}
+  achievementID: 15

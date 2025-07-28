@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fb1c7acc4772c40b2922849b6a3dd2, type: 3}
+  m_Name: 007TennisBallProduct
+  m_EditorClassIdentifier: 
+  id: 7
+  productName: TennisBall
+  icon: {fileID: 21300000, guid: 95e44510b4c9b644cad134d2fb4f4965, type: 3}
+  skinPrefab: {fileID: 1937441891354330, guid: 802297c69cbfbf542a55b3f4b4d4333e, type: 3}
+  hitEffectColor: {r: 0.87893355, g: 0.990566, b: 0.6775098, a: 1}
+  rotationMode: 0
+  specialHitEffectPrefab: {fileID: 0}
+  trailPrefab: {fileID: 0}
+  backgroundColorsPreset: {fileID: 0}
+  hitSounds:
+  - {fileID: 8300000, guid: 40b21914f1af49d44993bc74f2502fda, type: 3}
+  - {fileID: 8300000, guid: 2ba62a04702b2274a87c13a2a77b3c51, type: 3}
+  - {fileID: 8300000, guid: adaa7bb299615e44caa8b55dbb60c46f, type: 3}
+  - {fileID: 8300000, guid: c01f67cc22948dd47b7fc82f9161323d, type: 3}
+  gameOverSound: {fileID: 8300000, guid: ecccddc0e9bc0bc41b18d10ce1a3a128, type: 3}
+  achievementID: 7

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3e298592b89431845b567fcd123ed183
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RodchenkoCTT
+  fontNames:
+  - RodchenkoCTT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 06e2f408356380a49b1d586005b7a34b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518e113bf588e7044b019c57102645fa, type: 3}
+  m_Name: Store Settings
+  m_EditorClassIdentifier: 
+  products:
+  - {fileID: 11400000, guid: 7dde50db7adb64445bd6a72986cf5414, type: 2}
+  - {fileID: 11400000, guid: a80630b146c3e0245b154490f3e4da72, type: 2}
+  - {fileID: 11400000, guid: 038435f7b866c964cb32665c58ff4f9b, type: 2}
+  - {fileID: 11400000, guid: 19e3059ca8b2e134aba2a01acb022ab3, type: 2}
+  - {fileID: 11400000, guid: 9508373b1ed45a641b2ee580f6b655b1, type: 2}
+  - {fileID: 11400000, guid: a5884535aaf24cd4e92bc778e69b4d68, type: 2}
+  - {fileID: 11400000, guid: 466877fcf8e04c64a94a0a8c0e6e33d3, type: 2}
+  - {fileID: 11400000, guid: 8d499cd70615f3f43a4db5dd2ca05206, type: 2}
+  - {fileID: 11400000, guid: dfef7d83823ed3b42ada3bf7f5499f89, type: 2}
+  - {fileID: 11400000, guid: ebc9201400f57f543be3ebe55cf9051e, type: 2}
+  - {fileID: 11400000, guid: ea10f32a3ca66044c9c9ca1ca0cb5ee8, type: 2}
+  - {fileID: 11400000, guid: efc7d11013ae3b14f815229ecf818bca, type: 2}
+  - {fileID: 11400000, guid: da36cc0440d4620429e5af1b036936b4, type: 2}
+  - {fileID: 11400000, guid: 9b84d8ba7cd4c9142bc616f85c534e3c, type: 2}
+  - {fileID: 11400000, guid: b3aea50b7da4a1a4d825cff57d95d29c, type: 2}
+  - {fileID: 11400000, guid: d23da63d259f8ca4dbd1d415c2ff9d68, type: 2}
+  - {fileID: 11400000, guid: 7f513e01dcddc8a4ab40bece6b8a0857, type: 2}
+  - {fileID: 11400000, guid: 6666429dbe82cbc4fa70f81a320058f6, type: 2}
+  - {fileID: 11400000, guid: 4e60a9babcac5ed4b89d2dba6596d118, type: 2}
+  - {fileID: 11400000, guid: 8c6482efb2db95443bb70d7955f7b2b1, type: 2}
+  - {fileID: 11400000, guid: cbea2a18896c4f241804696cb5d54c0e, type: 2}
+  - {fileID: 11400000, guid: 5fa17803531e5e34085ef489e40d9fcc, type: 2}

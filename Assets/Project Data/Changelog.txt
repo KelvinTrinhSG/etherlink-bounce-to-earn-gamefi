@@ -1,0 +1,10 @@
+v1.2.3
+- Core Update
+- Unity 2021 support
+
+v1.1
+- Core Update
+- Unity 2019 support
+
+v1.0
+- Base version

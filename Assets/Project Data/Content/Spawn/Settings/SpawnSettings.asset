@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b2e71dd1584e0d42a93831c3468e11c, type: 3}
+  m_Name: SpawnSettings
+  m_EditorClassIdentifier: 
+  spawnStartPointX: -8
+  maxPlatformsHeightOffset: 0.4
+  powerUpsSpawnChance: 0.12
+  minPlatformsBeforeNextPowerUp: 30
+  powerupsSpawnChanceOverride: 0
+  powerupsSpawnChances: []
+  backgroundDepth: 3
+  backgroundOffset: 2
+  minBgHeight: -1
+  maxBgHeight: 2
+  landSmooth: 0.827
+  settings: []
+  infinitSpawnSettings: []
+  levels:
+  - maxLevel: 1
+    levelPresets:
+    - {fileID: 11400000, guid: c37cd234d08fadc42a5acb41c1ced854, type: 2}
+  - maxLevel: 3
+    levelPresets:
+    - {fileID: 11400000, guid: 7f6dbc2a37da0254aad35946967a86a6, type: 2}
+    - {fileID: 11400000, guid: f8ee369ffa514cb41aca81125f6b6ffe, type: 2}
+    - {fileID: 11400000, guid: 42d5631819b75f04caf22a3ee323526b, type: 2}
+  - maxLevel: 7
+    levelPresets:
+    - {fileID: 11400000, guid: 74ab8225357617542abd7dc2a186cf54, type: 2}
+    - {fileID: 11400000, guid: cc62021102a27654287688605849003c, type: 2}
+    - {fileID: 11400000, guid: ba4b6164809937b41b72d9c632427a09, type: 2}
+    - {fileID: 11400000, guid: 6105d335410a12f4ab48ceb640c0907e, type: 2}
+    - {fileID: 11400000, guid: d3e01967c179f4043bd33f25708f066f, type: 2}
+    - {fileID: 11400000, guid: dc7ca741e19c7e64dab93d0f756f013e, type: 2}
+  - maxLevel: 12
+    levelPresets:
+    - {fileID: 11400000, guid: 02688144d07fa1d41b2d00e6ddb58ef8, type: 2}
+    - {fileID: 11400000, guid: 3783342cd28c28242b645b49d8ddce85, type: 2}
+    - {fileID: 11400000, guid: 49a585a362b1c344e9c8cce79b5218c5, type: 2}
+    - {fileID: 11400000, guid: 7a72ca5914762da48b912ef84d4cf9da, type: 2}
+    - {fileID: 11400000, guid: 7cb399f42673c114a9c8d340d7bb698e, type: 2}
+    - {fileID: 11400000, guid: 539fd2c6c9136be438cb67db8ca2be7f, type: 2}
+    - {fileID: 11400000, guid: a6365da6358822548a05b315507786f6, type: 2}
+  relaxZonesPresets: {fileID: 11400000, guid: cf01c1655451b6d4e9e4c7a0aede6834, type: 2}
