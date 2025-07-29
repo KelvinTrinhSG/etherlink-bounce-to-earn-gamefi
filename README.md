@@ -87,7 +87,7 @@ We welcome all contributions to improve the game:
 
 ## 📬 Contact
 
-- 💬 Telegram: [@KelvinTrinhSG](https://t.me/KelvinTrinhSG)
+- 💬 Telegram: [@KelvinTGameDev](https://t.me/KelvinTGameDev)
 - 🐦 Twitter: [@CoinInves2024](https://x.com/CoinInves2024)
 
 ---
