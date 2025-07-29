@@ -75,6 +75,62 @@
 
 ---
 
+## 🔐 Token-Gated Access
+
+### The Token Gate NFT
+
+- **Type:** OpenEditionERC721
+- **Symbol:** GATE
+- **Purpose:** Grants access to the game
+- **Description:** A digital pass that unlocks core features and access
+- **Etherlink Contract:** `0x6B7FFDe4650268B98A0DE2438906881Bb2f8450F`
+- [View Contract](https://thirdweb.com/team/kelvincod/0e7eed2e2e708515a11d78eaedf37f02/contract/128123/0x6B7FFDe4650268B98A0DE2438906881Bb2f8450F)
+
+### The VIP NFT
+
+- **Type:** OpenEditionERC721
+- **Symbol:** VIP
+- **Purpose:** Doubles score, unlocks special character
+- **Description:** Premium access with exclusive benefits
+- **Etherlink Contract:** `0x5b889D548b142aF5D68e37A9489A77656C64b117`
+- [View Contract](https://thirdweb.com/team/kelvincod/0e7eed2e2e708515a11d78eaedf37f02/contract/128123/0x5b889D548b142aF5D68e37A9489A77656C64b117)
+- **Cost:** 2 XTZ
+
+---
+
+## 💎 The GEM Token
+
+- **Type:** ERC20 Token Drop
+- **Symbol:** GEM
+- **Purpose:** Used to spin the Fortune Wheel
+- **Description:** Earned or purchased; rewards player actions
+- **Etherlink Contract:** `0x3Ba58FE809406ac88E20F7D937506bB8Eb39B159`
+- [View Contract](https://thirdweb.com/team/kelvincod/0e7eed2e2e708515a11d78eaedf37f02/contract/128123/0x3Ba58FE809406ac88E20F7D937506bB8Eb39B159)
+- **Cost:** 1 XTZ
+
+---
+
+## 🔄 Gameplay Flow
+
+1. Player connects wallet
+2. Claims Token Gate NFT to enter
+3. If VIP NFT is owned, score is doubled and a bonus character is unlocked
+4. Player earns or purchases GEM tokens
+5. GEM tokens are burned to spin the Fortune Wheel
+6. The Fortune Wheel rewards Revival Tokens
+7. Players accumulate scores, which can be submitted onchain to claim XTZ (future support)
+
+---
+
+## ⚙ Scalability
+
+- Client-side gameplay logic ensures smooth performance
+- Only key actions (claim, burn, earn) are onchain
+- Modular NFT/token utility for future upgrades without full redeploy
+- Etherlink's high throughput and low fees enable seamless scaling
+
+---
+
 ## 🤝 Contributing
 
 We welcome all contributions to improve the game:
